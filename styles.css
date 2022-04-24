@@ -414,6 +414,7 @@ a:hover{
     transform: scaleY(0);
     transform-origin: bottom;
     transition: transform 500ms;
+    z-index: 99;
   }
   .show-navbar {
     display: flex;
