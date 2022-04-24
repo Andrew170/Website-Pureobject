@@ -421,25 +421,32 @@ a:hover{
     transform: scaleY(1);
     transform-origin: top;
     transition: transform 300ms;
+    z-index: 99;
   }
   .nav-items {
     display: flex;
     flex-direction: column;
+    z-index: 99;
   }
   .nav-item {
     margin: 0.5rem 0;
+    z-index: 99;
   }
   .menu-toggle {
     display: block;
+    z-index: 99;
   }
   .bx-menu {
     display: block !important;
+    z-index: 99;
   }
   .show-bx {
     display: block !important;
+    z-index: 99;
   }
   .hide-bx {
     display: none !important;
+    z-index: 99;
   }
 }
 @media (min-width: 769px) {
