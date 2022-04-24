@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <script type="module" src="./index.js" ></script>
+    <script type="module" src="./src/3D/house2.js" ></script>
+    <script type="module" src="./src/3D/house3.js" ></script>
+    
+    <title>Pureobject Architects</title>
+</head>
+<body>
+    <!-- hamburger icon import -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <header>
+    <div class="company-logo">
+        <img src="./src/images/logo.png" alt="Logo">
+        </img>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
+        <li class="nav-item"><a href="./contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <i class="bx bx-menu"></i>
+      <i class="bx bx-x"></i>
+    </div>
+  </header>
+  <main>
+    <!-- HOME SECTION -->
+    <section class="section-1">
+      <div class="slogan">
+        <h1 class="company-title">PUREOBJECT STUDIOS</h1>
+        <h2 class="company-slogan">
+          Design | Development | Planning | Architecture
+        </h2>
+      </div>
+      <div class="home-computer-container">
+        <img class="home-computer" src="./src/images/image (10).jpg" alt="a computer in dark with shadow" class="home-img">
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <h4 class="projects" id="projects">PROJECTS</h4>
+    <section class="section-2">
+        <div class="scene"></div>
+        <div class="scene2"></div>
+        <div class="scene3"></div>
+    </section>
+    <section>
+      <div class="gallery"></div>
+      <div class="gallery-container">
+        <div class="gallery-item" data-index="1">
+            <img src="./src/images/image (1).jpg">
+        </div>
+        <div class="gallery-item" data-index="2">
+            <img src="./src/images/image (2).jpg">
+        </div>
+        <div class="gallery-item" data-index="3">
+            <img src="./src/images/image (3).jpg">
+        </div>
+        <div class="gallery-item" data-index="4">
+            <img src="./src/images/image (4).jpg">
+        </div>
+        <div class="gallery-item" data-index="5">
+            <img src="./src/images/image (5).jpg">
+        </div>
+        <div class="gallery-item" data-index="6">
+            <img src="./src/images/image (6).jpg">
+        </div>
+        <div class="gallery-item" data-index="7">
+            <img src="./src/images/image (7).jpg">
+        </div>
+        <div class="gallery-item" data-index="8">
+            <img src="./src/images/image (8).jpg">
+        </div>
+        <div class="gallery-item" data-index="9">
+            <img src="./src/images/image (9).jpg">
+        </div>
+      </div>
+    </section>
+    <li class="gallery-more"><a href="./gallery.html">more</a></li>
+
+
+    
+    <!-- SERVICES SECTION -->
+    <h5 class="services" id="services">SERVICES</h5>
+    <section class="section-3">
+      <div>
+        <div>ARCHITECTURE</div>
+        <div>INTERIOR ARCHITECTURE</div>
+        <div>LANDSCAPE ARCHITECTURE</div>
+        <div>MASTER PLANNING</div>
+        <div>URBAN CONCEPTS</div>
+        <div>BUILDING INFORMATION MODELING</div>
+      </div>
+      <div>
+        <div>MUNICIPAL CONSULTING</div>
+        <div>VIRTUAL REALITY</div>
+        <div>3D ILLUSTRATIONS & VIDEO RENDER</div>
+        <div>DRONE TECHNOLOGY</div>
+        <div>3D PRINTING & MODEL BUILDING</div>
+        <div>3D MEASUREMENT, IMAGING & REALISATION SOLUTION</div>
+    </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="top-footer"></div>
+    <div class="end-footer"> <div class="copyright">Copyright © 2022 - Present • RenderSimply •</div>
+    <!-- <a class="designer" href="https://www.instagram.com/rendersimply/">Andrew Einarsen</a> -->
+
+  </footer>
+
+
+  <script src="./src/three.js"></script>
+  <script src="./src/OrbitControls.js"></script>
+  <script src="./src/GLTFLoader.js"></script>
+    
+</body>
+</html>
